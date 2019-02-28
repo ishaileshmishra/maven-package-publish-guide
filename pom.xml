@@ -32,9 +32,9 @@
     </developers>
 
     <scm>
-        <url>https://github.com/mshaileshr/Maven-Release-Example/Maven-Release-Example/tree/master</url>
-        <connection>scm:git:git://github.com/mshaileshr/Maven-Release-Example/Maven-Release-Example.git</connection>
-        <developerConnection>scm:git:ssh://github.com/mshaileshr/Maven-Release-Example/Maven-Release-Example.git</developerConnection>
+        <url>https://github.com/mshaileshr/Maven-Release-Example/tree/master</url>
+        <connection>scm:git:git://github.com/mshaileshr/Maven-Release-Example.git</connection>
+        <developerConnection>scm:git:ssh://github.com/mshaileshr/Maven-Release-Example.git</developerConnection>
         <tag>v@{project.version}</tag>
     </scm>
 
