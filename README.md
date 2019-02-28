@@ -1,5 +1,3 @@
-# Java maven release process manual
-
 # Deploying to OSSRH with Apache Maven - Introduction
 
 [Apache Maven](http://maven.apache.org/)  started the Central Repository by publishing all its components and required dependencies into the Central Repository - back then known as  _Maven Central_. Maven is pre-configured to connect to the Central Repository and download everything it needs including your project dependencies from the Central Repository.
