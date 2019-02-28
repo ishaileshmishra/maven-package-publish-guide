@@ -1,4 +1,4 @@
-# Maven-Release-Example
+# Java maven release process manual
 
 # Deploying to OSSRH with Apache Maven - Introduction
 
