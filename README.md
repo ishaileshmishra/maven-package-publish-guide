@@ -418,9 +418,4 @@ gpg: sending key 94BAQOECA23232133 to hkp://pgp.mit.edu
 Shaileshs-MacBook-Pro:~ shaileshmishra$ gpg --keyserver hkp://pgp.mit.edu --send-keys 94BAQOECA23232133
 ```
 
-
-That's IT. Enjoy
-
-
-Thanks
-Shailesh Mishra
+Enjoy :)
