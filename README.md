@@ -420,6 +420,19 @@ Shaileshs-MacBook-Pro:~ shaileshmishra$ gpg --keyserver hkp://pgp.mit.edu --send
 
 ## Maven found bug, Not supporting for javadoc building:
 
-#### Solution: attach-javadocs error when running `mvn package`
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.797 s
+[INFO] Finished at: 2019-03-28T13:24:59+01:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-javadoc-plugin:3.0.1:jar (attach-javadocs) on project ldp-testsuite: MavenReportException: Error while generating Javadoc: 
+[ERROR] Exit code: 1 - javadoc: error - The code being documented uses modules but the packages defined in https://docs.oracle.com/javase/8/docs/api/ are in the unnamed module.
+[ERROR] 
+[ERROR] Command line was: /Library/Java/JavaVirtualMachines/openjdk-12.jdk/Contents/Home/bin/javadoc @options @packages
+[ERROR] 
+[ERROR] Refer to the generated Javadoc files in '/Users/michiel/gh/w3c/ldp-testsuite/target/apidocs' dir.
 
-https://github.com/w3c/ldp-testsuite/issues/234#issuecomment-517231144
+#### attach-javadocs error when running `mvn package`
+
+#### Solution: https://github.com/w3c/ldp-testsuite/issues/234#issuecomment-517231144
