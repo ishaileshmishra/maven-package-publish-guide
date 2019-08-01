@@ -418,4 +418,8 @@ gpg: sending key 94BAQOECA23232133 to hkp://pgp.mit.edu
 Shaileshs-MacBook-Pro:~ shaileshmishra$ gpg --keyserver hkp://pgp.mit.edu --send-keys 94BAQOECA23232133
 ```
 
-Enjoy :)
+## Maven found bug, Not supporting for javadoc building:
+
+#### Solution: attach-javadocs error when running `mvn package`
+
+https://github.com/w3c/ldp-testsuite/issues/234#issuecomment-517231144
